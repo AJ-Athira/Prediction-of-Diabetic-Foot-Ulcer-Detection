@@ -1,4 +1,4 @@
-readme_content = """
+
 # Diabetic Foot Ulcer Classification using EfficientNet and InceptionResNetV2
 
 This repository contains code for a deep learning-based image classification system designed to detect and classify Diabetic Foot Ulcers (DFUs) into various stages of severity. The model leverages pre-trained EfficientNetB3 and InceptionResNetV2 models for feature extraction and combines these features for a more robust classification.
@@ -34,14 +34,7 @@ pip install -r requirements.txt
 
 The dataset used for this project consists of images of diabetic foot ulcers, categorized into different stages. The images should be organized in the following directory structure:
 
-\`\`\`
-datasets/
-│
-└───DFU/
-    ├───Patches/
-    │   ├───Abnormal(Ulcer)/
-    │   └───Normal(Healthy skin)/
-\`\`\`
+Dataset-->DFU-->Patches-->>Abnormal,Normal
 
 - **Abnormal(Ulcer)**: Contains images of diabetic foot ulcers at various stages.
 - **Normal(Healthy skin)**: Contains images of healthy skin.
@@ -97,11 +90,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - This project uses pre-trained models provided by TensorFlow's Keras Applications.
 - Special thanks to the creators of the EfficientNet and InceptionResNetV2 models.
-"""
 
-# Write the content to a README.md file
-with open("README.md", "w") as readme_file:
-    readme_file.write(readme_content)
 
-print("README.md file has been generated.")
+
 
