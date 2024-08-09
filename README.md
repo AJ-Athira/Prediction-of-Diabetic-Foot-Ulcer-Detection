@@ -25,7 +25,7 @@ This project aims to classify images of diabetic foot ulcers into different stag
 To get started, clone this repository and install the necessary dependencies:
 
 \`\`\`bash
-git clone https://github.com/your-username/diabetic-foot-ulcer-classification.git
+git clone https://github.com/AJ-Athira/diabetic-foot-ulcer-classification.git
 cd diabetic-foot-ulcer-classification
 pip install -r requirements.txt
 \`\`\`
